@@ -46,22 +46,6 @@ async def on_member_join(member):
     message = 'Ein mieses Gerät ist erschienen, {}!'
     await channel.send(message.format(member.mention))
 
-#@bot.event
-#async def on_message(message):
-#    if message.author == bot.user:
-#        return
-#
-#    if message.content.startswith('$play'):
-#        quotenumber = random.randint(1,5)
-#        if quotenumber == 1:
-#            await message.channel.send('Tokio kann man essen, ja, lecker!')
-#        elif quotenumber == 2:
-#            await message.channel.send('Sex ist wie Valorant Skins!')
-#        elif quotenumber == 3:
-#            await message.channel.send('Ich liebe es Kinder zu f-!')
-#        elif quotenumber == 4:
-#            await message.channel.send('Vallah meine Freundin ist so hässlich, ich mach jetzt Schluss mit sie!')
-#        elif quotenumber == 5:
-#            await message.channel.send('Zu Nunos Haus, große Haus, AEZ!')
+
 
 bot.run(token)
