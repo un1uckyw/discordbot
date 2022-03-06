@@ -64,4 +64,4 @@ async def on_member_join(member):
 #        elif quotenumber == 5:
 #            await message.channel.send('Zu Nunos Haus, große Haus, AEZ!')
 
-bot.run('ODg4MTcxNzA1ODQxOTA5ODEy.YUO0XA.LxMXxEf0IPqp_zLV7hEflm35gcQ')
+bot.run(token)
